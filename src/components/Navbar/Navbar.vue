@@ -67,8 +67,8 @@ const goHome = () => {
   <v-app-bar class="ios-padding">
     <v-app-bar-nav-icon @click="toggleDrawer" />
     <div class="title-wrapper cursor-pointer" @click="goHome">
-      <span v-if="$vuetify.display.smAndUp" class="text-accent">Vue</span>
-      <span v-if="$vuetify.display.smAndUp">Torrent</span>
+      <span v-if="$vuetify.display.smAndUp" class="text-accent">q</span>
+      <span v-if="$vuetify.display.smAndUp">Bitorrent</span>
     </div>
 
     <ActiveFilters />
